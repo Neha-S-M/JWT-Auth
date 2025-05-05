@@ -50,10 +50,10 @@ Server will run at `http://localhost:5000`.
 ###  Public Routes
 
 - **POST** `/api/register`  
-  - Body: `{ "name": "John", "email": "john@example.com", "password": "123456" }`
+  - Body: `{ "name": "Sarah", "phone": "1234567890", "password": "xyz" }`
 
 - **POST** `/api/login`  
-  - Body: `{ "email": "john@example.com", "password": "123456" }`
+  - Body: `{ "phone": "1234567890", "password": "xyz" }`
   - Returns: JWT token
 
 ---
@@ -73,7 +73,6 @@ Server will run at `http://localhost:5000`.
 - MongoDB & Mongoose
 - JSON Web Tokens (JWT)
 - bcrypt for password hashing
-- dotenv for environment variables
 
 ---
 
